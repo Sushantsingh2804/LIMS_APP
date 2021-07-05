@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.labinfomanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main_foreground"
+        android:label="LIMS"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LabInfoManagement">
+        <activity android:name=".Attendance"
+            android:label="Attendance"></activity>
+        <activity android:name=".Add_Student"
+            android:label="Add Student"/>
+        <activity android:name=".Student"
+            android:label="Student"/>
+        <activity android:name=".User_lab_info"
+            android:label="Lab Info"/>
+        <activity
+            android:name=".User_Add_lab"
+            android:label="Add Lab" />
+        <activity
+            android:name=".User_lab"
+            android:label="Labs" />
+        <activity
+            android:name=".User_Login"
+            android:label="Login" />
+        <activity
+            android:name=".User_Signup"
+            android:label="Sign Up" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

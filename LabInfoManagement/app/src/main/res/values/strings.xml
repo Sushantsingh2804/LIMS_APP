@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LabInfoManagement</string>
+    <string name="login">Login</string>
+    <string name="sign_up">sign up</string>
+    <string name="main_image">Main Image</string>
+    <string name="add">add</string>
+    <string name="lab_name">Lab Name</string>
+    <string name="slot">Slot</string>
+    <string name="classes">Classes</string>
+    <string name="title_activity_student">Student</string>
+    <string name="todo">TODO</string>
+</resources>
